@@ -112,7 +112,7 @@ type Movie struct {
 	ID               int `json:"id"`
 }
 
-// Quality movir quality
+// Quality movie quality
 type Quality struct {
 	ID         int    `json:"id"`
 	Name       string `json:"name"`
@@ -132,10 +132,10 @@ type ExcludedMovie struct {
 	TmdbID     int    `json:"tmdbId"`
 }
 
-// ExcludedMovies descrive a set of excluded movies
+// ExcludedMovies describes a set of excluded movies
 type ExcludedMovies []*ExcludedMovie
 
-// DeleteMovieOptions optionnal option while deleting movie
+// DeleteMovieOptions optional option while deleting movie
 type DeleteMovieOptions struct {
 	// If true the movie folder and all files will be deleted when the movie is deleted
 	DeleteFiles bool
