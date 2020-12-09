@@ -12,7 +12,7 @@
 				"id": 31,
 				"name": "Remux-2160p",
 				"source": "bluray",
-				"resolution": 2160,
+				"resolution": "2160",
 				"modifier": "remux"
 			},
 			"revision": {
